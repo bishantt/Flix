@@ -1,0 +1,6 @@
+framework module Pods_movieScroll {
+  umbrella header "Pods-movieScroll-umbrella.h"
+
+  export *
+  module * { export * }
+}
