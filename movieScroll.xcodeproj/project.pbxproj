@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D1CF2A62230CF5D001A7D6E /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1CF2A52230CF5D001A7D6E /* MovieDetailsViewController.swift */; };
+		8D1CF2A82230D7F4001A7D6E /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1CF2A72230D7F4001A7D6E /* MovieGridViewController.swift */; };
+		8D1CF2AA2230DD4D001A7D6E /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1CF2A92230DD4D001A7D6E /* MovieGridCell.swift */; };
 		8D4FE40E221E3DE60040C14D /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4FE40D221E3DE60040C14D /* MovieCell.swift */; };
 		8DE77B372219A7DE00EFB66C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE77B362219A7DE00EFB66C /* AppDelegate.swift */; };
 		8DE77B3C2219A7DE00EFB66C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DE77B3A2219A7DE00EFB66C /* Main.storyboard */; };
@@ -19,6 +22,9 @@
 /* Begin PBXFileReference section */
 		3E58A8CD73E60011E8843FB7 /* Pods_movieScroll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_movieScroll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		619045F69A48C24317CB4FB6 /* Pods-movieScroll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movieScroll.release.xcconfig"; path = "Target Support Files/Pods-movieScroll/Pods-movieScroll.release.xcconfig"; sourceTree = "<group>"; };
+		8D1CF2A52230CF5D001A7D6E /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		8D1CF2A72230D7F4001A7D6E /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MovieGridViewController.swift; path = Assets.xcassets/MovieGridViewController.swift; sourceTree = "<group>"; };
+		8D1CF2A92230DD4D001A7D6E /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		8D4FE40D221E3DE60040C14D /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		8DE77B332219A7DE00EFB66C /* movieScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = movieScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DE77B362219A7DE00EFB66C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +84,9 @@
 				8DE77B3F2219A7DF00EFB66C /* LaunchScreen.storyboard */,
 				8DE77B422219A7DF00EFB66C /* Info.plist */,
 				8D4FE40D221E3DE60040C14D /* MovieCell.swift */,
+				8D1CF2A52230CF5D001A7D6E /* MovieDetailsViewController.swift */,
+				8D1CF2A72230D7F4001A7D6E /* MovieGridViewController.swift */,
+				8D1CF2A92230DD4D001A7D6E /* MovieGridCell.swift */,
 			);
 			path = movieScroll;
 			sourceTree = "<group>";
@@ -88,7 +97,6 @@
 				B21E83A76DF704C051187EFA /* Pods-movieScroll.debug.xcconfig */,
 				619045F69A48C24317CB4FB6 /* Pods-movieScroll.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -214,8 +222,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D1CF2A82230D7F4001A7D6E /* MovieGridViewController.swift in Sources */,
+				8D1CF2A62230CF5D001A7D6E /* MovieDetailsViewController.swift in Sources */,
 				8DE77B372219A7DE00EFB66C /* AppDelegate.swift in Sources */,
 				8DE77B492219A8AD00EFB66C /* movieViewController.swift in Sources */,
+				8D1CF2AA2230DD4D001A7D6E /* MovieGridCell.swift in Sources */,
 				8D4FE40E221E3DE60040C14D /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
